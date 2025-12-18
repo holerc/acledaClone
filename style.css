@@ -146,7 +146,7 @@ nav .logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 70px;
+    gap: 80px;
     padding: 50px;
     text-align: center;
     margin: 20px;
@@ -453,4 +453,45 @@ nav .logo{
     .box-coll img {
         width: 100px;
     }
+}
+
+.box-items img{
+    width: 318px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.event{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+    background-color: #091521;
+    cursor: pointer;
+}
+
+
+
+.box-items{
+    background-color: #1f2739;
+    width: 320px;
+    
+    height: 380px;
+    margin: 0;
+    padding: 1px;
+    vertical-align: top;
+    border-radius: 10px;
+    object-fit: cover;
+    color: #A9CBF1;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.box-items:hover{
+    transform: scale(1.05);
+}
+.box-items p{
+    padding: 10px;
+    font-size: 14px;
 }

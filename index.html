@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    
 </head>
 <body>
     <div class="navbar">
@@ -138,10 +140,33 @@
       </div>
 
 
+      <div class="event">
+
+
+        <div class="box-items">
+          <img src="https://www.acledabank.com.kh/kh/assets/image/img-ln20251215.jpg" alt="">
+          <p>ACLEDA Bank Recognized as No. 1 Ranking for Promoting Khmer Riel</p>
+        </div>
+        <div class="box-items">
+          <img src="https://www.acledabank.com.kh/kh/assets/image/img-ln20251204-small.jpg" alt="">
+          <p>NPCI International and ACLEDA Bank Plc. sign agreement to enable UPI & KHQR Acceptance in India & Cambodia</p>
+        </div>
+        <div class="box-items">
+          <img src="https://www.acledabank.com.kh/kh/assets/image/img-ln20251112-1.jpg" alt="">
+          <p>Business Matching with JCA (JAPAN-Cambodia Association)</p>
+        </div>
+        <div class="box-items">
+          <img src="https://www.acledabank.com.kh/kh/assets/image/img-ln20251112-2-small.jpg" alt="">
+          <p>Official Launch of Cross-Border QR Code Payment between Cambodia and Singapore</p>
+        </div>
+
+
+      </div>
+      
 
 
               
-
+      <!-- footer -->
       <footer class="footer">
         <div class="infor">
           <p>SITE MAP</p>
@@ -190,4 +215,13 @@
       </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script>
+  document.querySelectorAll('#list-example a').forEach(link => {
+    link.addEventListener('click', () => {
+      const targetId = link.getAttribute('data-target');
+      const target = document.getElementById(targetId);
+      target.scrollIntoView({ behavior: 'smooth', inline: 'start' });
+    });
+  });
+</script>
 </html>
