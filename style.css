@@ -495,3 +495,27 @@ nav .logo{
     padding: 10px;
     font-size: 14px;
 }
+
+.event2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 50px;
+    background-color: #091521;
+    cursor: pointer;
+}
+.box-items2 img{
+    width: 500px;
+    border-radius: 10px;
+}
+.box-items2 p{
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    color: #A9CBF1;
+    font-weight: 600;
+}
+.box-items2 p:hover{
+    text-decoration: underline;
+}
